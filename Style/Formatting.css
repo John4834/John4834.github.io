@@ -1,0 +1,133 @@
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  body.OW2 {
+    background: rgb(255, 255, 255) url('../Images/ow2background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font: 13pt Arial; 
+  }
+
+  table,th,td {
+    border-collapse: collapse;
+  }
+
+  body.PLT {
+    background: rgb(255, 255, 255) url('../Images/plaguetalebackground.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font: 13pt Arial;
+  }
+
+  body.Index {
+    background: rgb(255, 255, 255) url('../Images/homebackground.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font: 13pt Arial;
+  }
+
+  body.UNC {
+    background: rgb(255, 255, 255) url('../Images/Unchartedbackground.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font: 13pt Arial;
+  }
+
+  .fakeimg {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 40px;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  
+  .flex-container > div {
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+  }
+
+  .flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-area: auto;
+  }
+
+  .grid-container > div{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-container > div{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .item1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+  }
+
+  .item2 {
+    grid-area: 1 / 2 / span 1 / span 1;
+  }
+
+  .item3 {
+    grid-area: 2 / 1 / span 1 / span 1;
+  }
+
+  .item4 {
+    grid-area: 2 / 2 / span 1 / span 1;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }

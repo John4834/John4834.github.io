@@ -1,0 +1,77 @@
+.topnav {
+    background-color: rgb(44, 44, 44);
+  }
+
+  * {
+    color: white;
+  }
+
+  .topnav a {
+    color: #f2f2f2;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: teal;
+  }
+
+  body.OW2 {
+    color: whitesmoke
+  }
+
+  table,th,td {
+    border: 1px solid black;
+  }
+
+  body.PLT {
+    color: whitesmoke
+  }
+
+  body.Index {
+    color: whitesmoke
+  }
+
+  body.UNC {
+    color: whitesmoke
+  }
+
+  .card {
+    background-color: rgb(44, 44, 44);
+  }
+
+  #score_good {
+    background-color: green;
+  }
+
+  #score_bad {
+    background-color: red;
+  }
+
+  #score_mid {
+    background-color: yellow;
+    color: black;
+  }
+
+  .flex-container > div > table, ul {
+    background-color: grey;
+  }
+
+  ul > h2:first-of-type {
+    color:aliceblue
+  }
+
+  ul > li:first-of-type + li {
+    color:aliceblue
+  }
+
+  tr > th:first-of-type {
+    color:aliceblue
+  }
+
+  tr > th:first-of-type + th {
+    color:aliceblue
+  }
